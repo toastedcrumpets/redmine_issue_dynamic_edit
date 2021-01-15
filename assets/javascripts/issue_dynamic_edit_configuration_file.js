@@ -9,14 +9,14 @@
  * Use this value if you encounter some difficulties with "Mixed content" issues
  * Allowed values : false (default), true
  */
-var _CONF_FORCE_HTTPS = false;
+var _CONF_FORCE_HTTPS = true;
 
 /*
  * _CONF_DISPLAY_EDIT_ICON (string)
  * Choose if hovering the details block will display all the pencil icons next to editable values or if the user has to hover every value to check if (s)he can edit it
  * Allowed values : single (default), block
  */
-var _CONF_DISPLAY_EDIT_ICON = "single";
+var _CONF_DISPLAY_EDIT_ICON = "block";
 
 /*
  * _CONF_LISTENER_TYPE_VALUE (string)
